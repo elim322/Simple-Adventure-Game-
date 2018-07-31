@@ -3,7 +3,7 @@ var message = prompt('You are Emilio, a knight seeking adventure. You take your 
 if (message.toLowerCase() === 'left') {
   var message = prompt('Oh no a monster appeared! Would you like to fight, or run?')
   if (message.toLowerCase() ==='run')
-    alert('You are a crippling pussy!');
+    alert('You are a scaredy cat!');
     else if (message.toLowerCase() === 'fight')
     var message = prompt('Do you dance, show cat pictures, stab it with a knife, or punch it in the face?');
     if (message.includes('dance'))
