@@ -1,3 +1,4 @@
+//adventure game 
 var message = prompt('You are a knight seeking adventure. You take your horse, Jericho, into the nearest forest. You reach a branched path. Will you go left or right?');
 if (message.toLowerCase() === 'left') {
   var message = prompt('Oh no a monster appeared! Would you like to fight, or run?')
